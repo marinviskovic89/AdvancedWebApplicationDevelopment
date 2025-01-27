@@ -1,0 +1,101 @@
+/* Kontejner */
+.user-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .user-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-list-empty {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .user-list-error {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Raspored kartica */
+  .user-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Kartica korisnika */
+  .user-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Informacije o korisniku */
+  .user-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-detail {
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .user-label {
+    font-weight: bold;
+  }
+  
+  /* Gumbi */
+  .user-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .password-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .password-button:hover {
+    background-color: #1e7e34;
+  }
+  

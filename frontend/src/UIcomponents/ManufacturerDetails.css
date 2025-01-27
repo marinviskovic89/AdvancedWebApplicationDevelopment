@@ -1,0 +1,57 @@
+/* General styles for manufacturer details */
+.manufacturer-details {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .manufacturer-details h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .manufacturer-details a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .manufacturer-details strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .manufacturer-details button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .manufacturer-details button:hover {
+    background-color: #0056b3;
+  }
+  
+  .manufacturer-details .manufacturer-country,
+  .manufacturer-details .manufacturer-year,
+  .manufacturer-details .manufacturer-description {
+    margin-bottom: 15px;
+  }
+  

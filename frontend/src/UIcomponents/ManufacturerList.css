@@ -1,0 +1,158 @@
+/* General container styling */
+.manufacturer-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.products-button,
+.logout-button {
+  font-size: 1rem;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.products-button:hover,
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.logout-button {
+  margin-left: auto; /* Push the logout button to the far right */
+}
+
+.add-manufacturer-button {
+  font-size: 1rem;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-manufacturer-button:hover {
+  background-color: #0056b3;
+}
+
+/* Alert styling */
+.alert {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.alert.show {
+  display: block;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Manufacturer list styling */
+.manufacturer-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+/* Each manufacturer item styling */
+.manufacturer-item {
+  background: white;
+  width: 250px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.manufacturer-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Manufacturer info */
+.manufacturer-name {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.manufacturer-country,
+.manufacturer-year {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Buttons styling */
+.manufacturer-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.details-button,
+.edit-button,
+.delete-button {
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.details-button:hover {
+  background-color: #218838;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

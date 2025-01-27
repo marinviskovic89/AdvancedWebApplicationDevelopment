@@ -1,0 +1,69 @@
+/* General styles for product details */
+.product-details {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .product-details h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .product-details strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-details a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .product-details a:hover {
+    background-color: #45a049;
+  }
+  .product-image {
+    display: flex;
+    justify-content: center; /* Centriraj sliku horizontalno */
+    align-items: center;    /* Centriraj sliku vertikalno ako imaš fiksnu visinu */
+    margin: 20px 0;         /* Dodaj prostor iznad i ispod slike */
+  }
+  
+  .product-img {
+    max-width: 250px;       /* Smanji širinu slike */
+    height: auto;           /* Zadrži proporcije slike */
+    border-radius: 8px;     /* Dodaj blago zaobljene rubove */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Dodaj sjenu slici */
+    transition: transform 0.3s ease; /* Animacija kod hover efekta */
+  }
+  
+  .product-img:hover {
+    transform: scale(1.05); /* Lagano povećaj sliku kada se prijeđe mišem */
+  }
+  
+  
+  .product-details .product-price,
+  .product-details .product-percentage,
+  .product-details .product-color,
+  .product-details .product-manufacturer {
+    margin-bottom: 15px;
+  }
